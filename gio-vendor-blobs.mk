@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/gio/proprietary/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/gio/proprietary/libPlusMe.so:system/lib/libPlusMe.so \
-    vendor/samsung/gio/proprietary/BCM2049C0_003.001.031.0088.0094.hcd:system/bin/BCM2049C0_003.001.031.0088.0094.hcd \
+    vendor/samsung/gio/proprietary/BCM2049C0_003.001.031.0088.0094.hcd:system/etc/firmware/BCM2049C0_003.001.031.0088.0094.hcd \
     vendor/samsung/gio/proprietary/libs3cjpeg.so:system/lib/libs3cjpeg.so
 
 PRODUCT_COPY_FILES += \
