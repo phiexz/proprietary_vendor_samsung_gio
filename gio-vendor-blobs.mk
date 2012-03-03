@@ -13,11 +13,6 @@
 # limitations under the License.
 
 # All the blobs necessary for gio devices
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gio/proprietary/libril.so:obj/lib/libril.so \
-    vendor/samsung/gio/proprietary/libcamera_client.so:obj/lib/libcamera_client.so \
-    vendor/samsung/gio/proprietary/libcamera.so:obj/lib/libcamera.so
     
 PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/gps.msm7k.so:system/lib/hw/gps.gio.so \
@@ -32,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/libril.so:system/lib/libril.so \
     vendor/samsung/gio/proprietary/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/gio/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/gio/proprietary/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/samsung/gio/proprietary/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/gio/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/gio/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
@@ -42,13 +38,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/gio/proprietary/libCaMotion.so:system/lib/libCaMotion.so \
     vendor/samsung/gio/proprietary/libcaps.so:system/lib/libcaps.so \
+    vendor/samsung/gio/proprietary/libdiag.so:system/lib/libdiag.so \
     vendor/samsung/gio/proprietary/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/gio/proprietary/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/gio/proprietary/libPlusMe.so:system/lib/libPlusMe.so \
     vendor/samsung/gio/proprietary/BCM2049C0_003.001.031.0088.0094.hcd:system/etc/firmware/BCM2049C0_003.001.031.0088.0094.hcd \
-    vendor/samsung/gio/proprietary/libs3cjpeg.so:system/lib/libs3cjpeg.so
+    vendor/samsung/gio/proprietary/libs3cjpeg.so:system/lib/libs3cjpeg.so \
+    vendor/samsung/gio/proprietary/libs3cjpeg.so:system/lib/libs3cjpeg.so \
+    vendor/samsung/gio/proprietary/libacc.so:system/lib/libacc.so \
+    vendor/samsung/gio/proprietary/libaccelcal.so:system/lib/libaccelcal.so \
+    vendor/samsung/gio/proprietary/libaccsensorcal.so:system/lib/libaccsensorcal.so \
+    vendor/samsung/gio/proprietary/libaccsensorcaltest.so:system/lib/libaccsensorcaltest.so
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/gio/proprietary/OMX/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/samsung/gio/proprietary/OMX/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/samsung/gio/proprietary/OMX/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/samsung/gio/proprietary/OMX/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/samsung/gio/proprietary/OMX/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
@@ -66,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/OMX/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/samsung/gio/proprietary/OMX/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
     vendor/samsung/gio/proprietary/OMX/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-    vendor/samsung/gio/proprietary/OMX/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/samsung/gio/proprietary/OMX/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
     vendor/samsung/gio/proprietary/OMX/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
     vendor/samsung/gio/proprietary/OMX/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \
