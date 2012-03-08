@@ -16,6 +16,7 @@
     
 PRODUCT_COPY_FILES += \
     vendor/samsung/gio/proprietary/gps.msm7k.so:system/lib/hw/gps.gio.so \
+    vendor/samsung/gio/proprietary/lights.gio.so:system/lib/hw/lights.gio.so \
     vendor/samsung/gio/proprietary/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/gio/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/samsung/gio/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
